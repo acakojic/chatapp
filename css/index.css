@@ -15,7 +15,8 @@ div.navbar ul li a{
     text-decoration: none;
 }
 
-div.navbar ul li a{
-    
+div.navbar ul li a:hover{
+    background-color: white;
+    color: black;
 }
 
