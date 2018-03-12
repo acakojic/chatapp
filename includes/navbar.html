@@ -1,0 +1,14 @@
+<div class="navbar">
+    <ul>
+        <li>
+            [<a href="index.php">Home</a>]
+        </li>
+        <li>
+            <?php if ($_SESSION){ ?>
+            [<a href="logout.php">Logout <?php echo "'{$_SESSION['username']}'"; ?></a>]
+            <?php }else{ ?>
+            [<a href="login.php">Login</a>]
+            <?php } ?>
+        </li>
+    </ul>
+</div>

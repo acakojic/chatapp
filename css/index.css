@@ -1,0 +1,21 @@
+
+div.navbar ul{
+    list-style-type: none;
+}
+
+div.navbar ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+div.navbar ul li a{
+    padding: 0 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+div.navbar ul li a{
+    
+}
+
